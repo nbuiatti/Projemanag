@@ -27,7 +27,6 @@ class TasksViewHolder(private val binding: ItemTaskBinding) :
             binding.cvAddTaskListName.visibility = View.GONE
         }
         binding.ibDoneListName.setOnClickListener {
-            //TODO create entry in DB and display the task list
         }
 
     }
